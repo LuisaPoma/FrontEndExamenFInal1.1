@@ -1,0 +1,331 @@
+*{
+margin:0;
+padding:0;
+font-family:"Be Vietnam Pro";
+}
+/*Estilos para el Header*/
+
+/* .navLogo img{
+    position: relative;
+    z-index: 10;
+} ESTO NO HARA FALTA*/
+#menu {
+    visibility:hidden;
+    position: relative;
+}
+.navbars {
+    height: 10vh;
+    display: flex;
+}
+.cabeceraPrincipal {
+    display: flex;
+    justify-content: space-between;
+    margin: 35px;
+    padding: 20px;
+    flex-grow: 1;
+}
+.navCabecera{
+    margin-right: 100px;
+    margin-left:100px;
+    display: flex;
+}
+.navCabecera ul{
+    display: flex;
+}
+
+.navCabecera li a{
+    margin: 15px;
+    padding: 15px;
+    text-decoration: none;
+    color: #242E52;
+}
+/* .navButton {
+    display: flex;
+} */
+.navButton a{
+    color: white;
+text-decoration: none;
+background-color:#F3603B;
+border-radius:50px;
+padding: 15px;
+margin: 20px;
+}
+/*Estilos para el Main*/
+
+#ContPrincipal {
+    display: flex;
+    justify-content: flex-start;
+
+}
+/*Main - Primera Columna*/
+.primeraColumna{
+    margin-left:45px;
+    flex-grow: 1;
+}
+/*Primera Columna - Titulo Principal*/
+.mainTitle h1{
+    color:#232C50;
+    font-size:58px;
+    font-weight: 700;
+    align-items: center;
+}
+.mainTitle p{
+    color:black;
+    font-size:16px;
+    font-weight:500;
+    width: 350px;
+    height: 88px;
+    top: 124px;
+    align-items: center;
+}
+.mainTitle a{
+    color: white;
+    text-decoration: none;
+    background-color:#F3603B;
+    border-radius:50px;
+    padding: 15px;
+    margin: 20px;
+}
+/*Primera Columna - Titulo Secundario*/
+.secondTitle h2{
+    color:#232851;
+    font-size:30px;
+}
+.secondTitle p{
+    color:black;
+    font-size:16px;
+    font-weight:500;
+    width: 350px;
+    height: 88px;
+    top: 124px;
+    align-items: center;
+    padding-bottom: 300px;
+}
+/*Main - Segunda Columna*/
+/*Segunda Columna - graficos*/
+.segundaColumna {
+    flex-grow: 1;
+}
+.graficos img {
+    height: 400px;
+    width: 550px;
+    padding-left: 45px;
+}
+/*Segunda Columna - listado enumerado*/
+.lista{
+    padding-left: 45px;
+    display:flex;
+
+}
+.listaNumeros{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    height:280px;
+    margin-right: 30px;
+    color:white;
+    
+
+}
+.num1{
+    background-color:#F3603B;
+    border-radius:15px;
+    width:40px;
+    padding:5px;
+    text-align:center;
+
+}
+.num2{
+    background-color:#F3603B;
+    border-radius:15px;
+    width:40px;
+    padding:5px;
+    text-align:center;
+
+}
+.num3{
+    background-color:#F3603B;
+    border-radius:15px;
+    width:40px;
+    padding:5px;
+    text-align:center;
+
+}
+.enumeracion li{
+    font-weight: bold;
+    color:#323851;
+    
+
+}
+.enumeracion li p{
+    font-weight:normal;
+    color:#B3B2B7;
+    padding-bottom: 50px;
+
+}
+
+/*Main - final*/
+/*final - titulo*/
+.testimonios1 h2{
+    color:#232851;
+    font-size:30px;
+    text-align:center;
+    margin-bottom:40px;
+}
+/*final - testimonios*/
+.testimonios2 {
+    display:flex;
+
+}
+.anisha img{
+    height:70px;
+    width:70px;
+}
+.ali img{
+    height:70px;
+    width:70px;
+}
+.richard img{
+    height:70px;
+    width:70px;
+}
+.recuadros h6{
+    text-align:center;
+    color: black;
+}
+.recuadros{
+    display: flex;
+    text-align:center;
+    color:#B3B2B7;
+    /* width: 120px; */
+}
+/*final - boton*/
+.mainFinalButton{
+    margin-top:100px;
+    text-align: center
+}
+.mainFinalButton a{
+    color: white;
+    text-decoration: none;
+    background-color:#F3603B;
+    border-radius:50px;
+    padding: 15px;
+}
+/*Footer - header*/
+footer header{
+    display: flex;
+    background-color: #F3613C;
+    padding:80px 120px;
+    justify-content:space-between;
+
+}
+.encabezadoFooter h2{
+    color: white;
+    width:300px;
+}
+.encabezadoFooter button{
+    background-color:white;
+    color:#F3603B;
+    border-radius:50px;
+    padding: 5px 20px;
+    border: #F3613C;
+
+}
+/*Footer - main*/
+footer main{
+    background-color: #1E1E26;
+    display: flex;
+    padding:100px;
+    justify-content:space-between;
+
+}
+/*Footer - main - logos*/
+/*copie el archivo del logo Manage(logofooter)y en la configuracion del mismo le cambie el color a blanco*/
+.iconosFooter{
+    margin-top:70px;
+
+}
+.enlacesFooter1 a {
+    display: flex;
+    text-decoration: none;
+    color:white;
+    margin: 10px;
+}
+/*Footer - main - Formulario y mensaje de copyright*/
+.formYcopyr input{
+    border-radius: 25px;
+    padding: 10px;
+}
+.formYcopyr button{
+    background-color:#F3603B;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+.formYcopyr p{
+    color:#8C8C94;
+    margin-top: 50px;
+    ;
+}
+/*Media queries*/
+
+@media screen and (max-width:375px) {
+    /*HEADER*/
+    .navCabecera {
+        display: none;
+    }
+    #menu {
+        visibility: visible;
+        font-size: 40px;
+        margin-left: 200%;
+        justify-content: flex-end;
+        bottom: 30px;
+    }
+    .navLogo img {
+        font-size: 50px ;
+    }
+    .cabeceraPrincipal{
+        flex-wrap: wrap;
+    }
+    .navButton a{
+        display: none;
+    }
+
+/*MAIN*/
+
+    .primeraColumna{
+        position: absolute;
+        top:600px;
+    }
+    .segundaColumna .lista {
+        /* display: none; */
+        /* top: 500px; */
+    }
+    .segundaColumna .graficos{
+        position: relative;
+        right: 20px;
+        width: 2px;
+        flex-grow: 1;
+    }
+
+
+
+    
+    .mainFinal{
+        position: relative;
+        top: 1500px;
+    }
+    footer{
+        position: relative;
+        top: 2000px;
+    }
+
+    }
+
+
+
+    /* section #contPrincipal {
+        display: flex;
+        flex-direction:row;
+    } */
+    }
